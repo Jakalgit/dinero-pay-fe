@@ -1,0 +1,172 @@
+.tariffsBlock {
+    border-radius: 40px;
+    padding: 46px 0;
+}
+
+.tariffsBlockBackground {
+    background: linear-gradient(180deg, #314149 75%, #2196F3 95%);
+    opacity: 0.3;
+    border-radius: inherit;
+    width: calc(100% + 80px);
+    margin-left: -40px;
+}
+
+.left {
+    flex: 2
+}
+
+.right {
+    flex: 5
+}
+
+.pricingHeadText {
+    font-size: 34px;
+}
+
+.inputs {
+    margin-top: 40px;
+    gap: 21px;
+}
+
+.startButton {
+    margin-top: 82px !important;
+}
+
+.tableContainer {
+    overflow-x: auto;
+    width: calc(145px * 6);
+    border-radius: 20px;
+}
+
+.fixedHeaderTable {
+    font-size: 14px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.fixedHeaderTable svg {
+    width: 16px;
+}
+
+.fixedHeaderTable th,
+.fixedHeaderTable td {
+    border: 0.5px solid var(--blue-color-3);
+    display: inline-flex;
+    align-items: center;
+    padding: 0 10px;
+    height: 50px;
+    width: 145px;
+    background-color: var(--dark-color-1);
+    gap: 4px;
+}
+
+.fixedColumn {
+    position: sticky;
+    left: 0;
+    z-index: 1; /* Обеспечивает, чтобы фиксированная колонка была поверх остальных */
+}
+
+.fixedHeaderTable tr td:last-child,
+.fixedHeaderTable tr th:last-child {
+    border-right: none; /* Убираем правый бордер у последней ячейки в строке */
+}
+
+.fixedHeaderTable tr td:first-child,
+.fixedHeaderTable tr th:first-child {
+    border-left: none; /* Убираем левый бордер у первой колонки */
+}
+
+.fixedHeaderTable tr:last-child td {
+    border-bottom: none; /* Убираем нижнюю границу у последней строки */
+}
+
+.fixedHeaderTable tr:first-child th {
+    border-top: none; /* Убираем верхнюю границу у заголовков */
+}
+
+@media (max-width: 1399px) {
+    .tableContainer {
+        width: calc(145px * 5);
+    }
+}
+
+@media (max-width: 1199px) {
+    .tableContainer {
+        width: calc(145px * 4);
+    }
+}
+
+@media (max-width: 991px) {
+    .tariffsBlock {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .left {
+        width: 60%;
+    }
+
+    .startButton {
+        margin-top: 30px !important;
+    }
+
+    .tableContainer {
+        width: calc(135px * 5);
+    }
+
+    .fixedHeaderTable {
+        font-size: 12px;
+    }
+
+    .fixedHeaderTable svg {
+        width: 14px;
+    }
+
+    .fixedHeaderTable th,
+    .fixedHeaderTable td {
+        padding: 0 8px;
+        height: 45px;
+        width: 135px;
+    }
+}
+
+@media (max-width: 767px) {
+    .left {
+        width: 70%;
+    }
+
+    .tableContainer {
+        border-radius: 15px;
+        width: calc(100px * 5);
+    }
+
+    .fixedHeaderTable th,
+    .fixedHeaderTable td {
+        padding: 0 5px;
+        height: 50px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 575px) {
+    .left {
+        width: 100%;
+    }
+
+    .tariffsBlock {
+        padding: 20px 0;
+        width: 100%;
+    }
+
+    .right, .left {
+        padding: 0 20px;
+    }
+
+    .tariffsBlockBackground {
+        background: linear-gradient(180deg, #314149 75%, #2196F3 95%);
+        opacity: 0.3;
+        border-radius: inherit;
+        width: 100%;
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,255 @@
+{
+  "routingLinks": {
+    "aboutUs": "About Us",
+    "advantages": "Advantages",
+    "ourClients": "Our clients",
+    "pricing": "Pricing",
+    "otherProjects": "Other projects",
+    "privacyPolicy": "Privacy Policy",
+    "termsAndConditions": "Terms and Conditions"
+  },
+  "header": {
+    "buttonOpenMenu": {
+      "title": "Open menu",
+      "ariaLabel": "Open navigation menu"
+    }
+  },
+  "HomePage": {
+    "section1": {
+      "largeText": "Your Secure Oasis\n for Global Transactions",
+      "smallText": "Reach customers from anywhere in the world with\n alternative and secure payment methods today",
+      "infoPart1": {
+        "value": "20",
+        "text": "pay in/out methods"
+      },
+      "infoPart2": {
+        "value": "90 000",
+        "text": "users"
+      },
+      "infoPart3": {
+        "value": "5 mln.",
+        "text": "transactions per month"
+      },
+      "startButton": "Start accepting payments"
+    },
+    "section2": {
+      "name": "About Us",
+      "largeText": "A dynamically developing company in the field of P2P processing and ECOM solutions",
+      "infoText1": "We create convenient and secure payment solutions for businesses, taking into account their technical and financial capabilities in accepting payments",
+      "infoText2": "With DINERO you can conduct transactions on websites and other Internet projects with minimal commission,\nregardless of its geography",
+      "geographyOfWork": "Geography of work",
+      "formName": "Start accepting payments"
+    },
+    "section3": {
+      "name": "Advantages",
+      "whyPay": "Why",
+      "blocks": {
+        "b1": "Customizable\npayment form",
+        "b2": "API & H2H\nintegration",
+        "b3": "Multifunctional\npersonal account",
+        "b4": "High\nconversion",
+        "b5": "24/7 Support",
+        "b6": "Payments without\nborders"
+      },
+      "menuItems": {
+        "i1": {
+          "head": "Start accepting payments for your goods",
+          "text": "Fast and convenient integration of the payment system to your site",
+          "download": "Download documentation"
+        },
+        "i2": {
+          "head": "Customizable payment form with dispute system",
+          "text1": "We understand the uniqueness of each project and the variety of requirements for payment processing. Our platform provides extensive customization capabilities, allowing you to adapt payment solutions in accordance with the individual features of the brand and customer preferences.",
+          "text2": "In case of an error, users can contact us, thereby reducing the volume of requests to your support service.",
+          "text3": "From corporate style elements to order processes we provide the flexibility necessary to create a unique user experience."
+        },
+        "i3": {
+          "head": "Personal Account Functionality",
+          "text": "The personal account provides a wide range of functionality for effective control over your finances and operations. Let's consider the key features:",
+          "p1": "Instant access to transaction statuses",
+          "p2": "Analysis of the number of transactions conducted",
+          "p3": "Graphical representation of statistics for each solutions",
+          "p4": "Instant access to balances",
+          "p5": "Convenient and safe replenishment"
+        },
+        "i4": {
+          "head": "Telegram Bot",
+          "text": "For prompt and convenient interaction with our clients, we have implemented our own telegram bot, which provides fast and efficient processing of requests."
+        },
+        "i5": {
+          "head": "Conversion for our solutions reaches <style>95%</style>, which is a benchmark indicator in the market"
+        },
+        "i6": {
+          "head": "As one of the key players in the industry, we have established our influence in South Asia and the CIS countries",
+          "text": "Our solutions allow companies to accept payments from customers in various corners of the planet, promoting business expansion and exploration of new markets. Thanks to the support of multiple currencies and localization capabilities, we provide companies with effective tools for successful entry into the global market."
+        }
+      },
+      "connect": "Connect",
+      "expand": "Expand"
+    },
+    "section4": {
+      "name": "Our clients",
+      "block1": {
+        "head": "Information goods",
+        "description": "Seamless payment services for programs, articles, banners and any other information products."
+      },
+      "block2": {
+        "head": "Betting",
+        "description": "Secure and stable processing for FTD and Trusted traffic. Lot of unique and alternative methods including p2p, cash delivery, and offline terminals."
+      },
+      "block3": {
+        "head": "Casino",
+        "description": "Provide your users with a smooth and instant way to deposit funds and receive payouts without delay. Our payment system offering seamless integration, support 24/7 reliability."
+      },
+      "block4": {
+        "head": "Forex and crypto",
+        "description": "Special offers for startups and fintech companies. Deep integration with analytic systems and product dashboards."
+      },
+      "block5": {
+        "head": "Dating & Adult services",
+        "description": "Donates and subscriptions for your adult ecosystem. Boost your revenue with new payment methods."
+      }
+    },
+    "section5": {
+      "paymentSolutions": "Payment solutions",
+      "solutionsDescription": "By working with us, you can safely focus on other aspects of your business\ndevelopment and automatically receive payments from customers.",
+      "pricing": "Get pricing for your business",
+      "pricingTable": {
+        "tariff": "Tariff",
+        "minMaxPayIn": "Min/Max PayIn",
+        "minMaxPayOut": "Min/Max PayOut",
+        "trafficType": "Traffic type",
+        "settlementUsdt": "Settlement USDT",
+        "settlementPeriod": "Settlement period",
+        "methods": "Methods"
+      }
+    },
+    "form": {
+      "projectNamePlaceholder": "Project name",
+      "identifierPlaceholder": "Email or Telegram",
+      "connectionType": "Connection",
+      "partnershipType": "Partnership",
+      "consultationType": "Consultation",
+      "employmentType": "Employment",
+      "otherType": "Other",
+      "submitApplication": "Submit application"
+    },
+    "section6": {
+      "name": "Other projects",
+      "block1": {
+        "head": "Casino",
+        "text": "<brand>DINERO</brand> <sub>Casino</sub> is a next-generation online casino platform designed for a global audience. We offer a sleek, user-friendly interface and a diverse selection of games, including slots and live dealers. The platform is built for stability, speed, and flexibility, with a bonus system tailored to different player profiles."
+      },
+      "block2": {
+        "head": "Exchanger",
+        "text": "This is a universal exchange service that provides users with the ability to instantly exchange both cryptocurrency and fiat money between each other. With the rapid growth of digital assets and the globalisation of payments, <brand>DINERO</brand> <sub>Exchanger</sub> closes a key need - fast, secure and profitable asset conversion in one place."
+      },
+      "buttonLook": {
+        "title": "Look",
+        "ariaLabel": "Take a look on the project"
+      }
+    }
+  },
+  "PrivacyPolicyPage": {
+    "head": "Privacy Policy",
+    "b1": {
+      "head": "Preamble",
+      "text": "1.1 This Privacy Policy (hereinafter — the «Policy») applies to the relationships between «DINERO LLC» (hereinafter — the «Controller») and individuals (hereinafter — the «Data subject») after the filling them of the feedback form on the Controller’s website: https://d-pay.org/ (hereinafter – the «Website»).\n\n1.2 The Policy applies to the personal data that the Controller receives about the Data Subject during their use of the Website and the acquisition of Controller services.\n\n1.3 An exhaustive list of personal data about the Data subject (hereinafter – «the personal data») collected and used by the Controller is provided in the Article 2 of the Policy.\n\n1.4 The current version of the Policy is available on the Website."
+    },
+    "b2": {
+      "head": "The personal data collected and used by the controller",
+      "text": "2.1 Categories of personal data collected and used:\n– Name, patronymic and surname;\n– Email address;\n– Mobile number;\n– Cookies.\n\n2.2 The personal data is provided by the Data subject independently during their filling of the feedback form on the Website.\n\n2.3 The Policy is only applicable to data collection was carried out during the interaction of the Data subject with the user interface posted on the Website. The Controller does not control and is not responsible for the third party’s websites to which the Data subject can click following links available on the Controller’s website. The Controller is not responsible for the information which can be collected or requested or to other actions of the Data subject on the websites of third parties\n\n2.4 The Controller does not check reliability of the personal data about the name, patronymic and surname and different information provided by the Data subject. At the same time the Controller assumes that the Data subject provides reliable and sufficient information about himself and keeps this information up to date."
+    },
+    "b3": {
+      "head": "The purpose for the processing of personal data",
+      "text": "3.1 The Controller collects and uses the personal data for the following purposes:\n– providing feedback to the Data subject, including sending notifications, requests and information related to the Website, as well as request management from the Data subject;\n– rendering services for the Data subject;\n– concluding the agreement for the provision of services between the Controller and Data subject, performance of the agreement;\n– improving the quality of services provided to the Data subject, ease of use, carrying out statistical and other studies based on anonymous data;\n– informing about new offers, advertising and promotional material (marketing) by electronic communications like emails.\n\n3.2 In the processing of the personal data, the Controller is guided by Regulation (EU) 2016/679 of the European Parliament and of the Council of 27April 2016 (GDPR). Processing of the personal data is based on the following principles:\n– lawfulness, fairness and transparency;\n– purpose limitation;\n– data minimisation;\n– accuracy;\n– storage limitation;\n– integrity and confidentiality"
+    },
+    "b4": {
+      "head": "Storage period",
+      "text": "4.1 The personal data is used by the Controller within one year\n\n4.2 The Controller erase the personal data after the above described storage period or when the Data subject requests us to erase the personal data.\n\n4.3 LEGITIMATE GROUNDS FOR PROCESSING\n4.3.1 The Controller process the personal data to pursue his legitimate interest to run, maintain and develop his business\n4.3.2 The Controller process the personal data to comply with his legal obligations."
+    },
+    "b5": {
+      "head": "Rights of the data subject",
+      "text": "5.1 The Data subject have the right to:\n– receive confirmation of the existence of the personal data, access their content and obtain a copy, including the right to lodge a complaint with a supervisory authority (right of access);\n– update, change and/or correct the personal data (right of rectification);\n– request the personal data erasure or restriction of the data processing in the cases envisaged by the Regulation, including where the data have been processed in violation of the law or if storage is not necessary for the purposes for which the data were collected or otherwise processed (right to erasure and right to restriction);\n– object at any time to the processing of the personal data (right to object);\n– withdraw the Data subject consent, where given, at any time and without prejudice to the lawfulness of the processing based on the consent given prior to withdrawal (right of withdrawal of consent);\n\n5.2 receive a copy of the data provided by the Data subject in a structured, commonly used and machine-readable format and request that such data be submitted to another data controller if technically feasible (right to data portability).\n\n5.3 The Data subject can exercise the Data subject’s rights at any time by writing a letter to email address set out below in the Article 10 with the words «PRIVACY POLICY» in the subject line. A letter should include the following information:\n– name, patronymic and surname;\n– email address;\n– mobile number;\n– the Data subject’s relationship and/or interactions with the Controller (as applicable);\n– the specifics of the information the Data subject would like the Controller to provide or the Data subject want the Controller to take action upon.\n\n5.4 The Controller may request additional information necessary to confirm Data subject’s identity."
+    },
+    "b6": {
+      "head": "Obligations of the controller",
+      "text": "6.1 The Controller undertakes:\n– demonstrate that the processing it performs or has performed are compliant with the Regulation (the principle of accountability);\n– ensure that, in the planning phase of processing activities and implementation phase of any new service, data protection principles and appropriate safeguards are addressed/ implemented (data protection “by design” and “by default”);\n– keep a detailed record of processing operations which can be made available to the supervisory authority at all times, and cooperate with it;\n– set up technical and organizational measures to ensure the security of the processing, such as pseudonymization and data encryption;\n– notify the competent supervisory authority of any breach likely to endanger individuals’ rights and freedoms without undue delay;\n– provide information to the Data subject relating to processing to the personal data upon Data subject’s request within two weeks."
+    },
+    "b7": {
+      "head": "Protection of the personal data",
+      "text": "7.1 The Controller takes necessary and sufficient organizational and technical measures to protect the personal data from unauthorized or accidental access, destruction, modification, blocking, copying, distribution, as well as from other illegal actions of third parties with them."
+    },
+    "b8": {
+      "head": "Changes to the privacy policy",
+      "text": "8.1 The Controller has the right to make changes to the Policy. When changes are made, the date of the last update shall be indicated in the latest version. The new version of the Policy comes into force from the date of its renewal and placement on the company’s website, unless otherwise provided by the new version of the Policy.\n\n8.2 Continued use of the Website by the Data subject after any amendments to the Policy means the Data subject’s consent to such amendments and / or additions. The Data subject agrees to regularly view the content of the Policy to ensure awareness with its amendments."
+    },
+    "b9": {
+      "head": "Contact details of the controller and data protection",
+      "text": "9.1 The Controller is: «DINERO LLC» with registered in Bulgaria, Burgas 8000, Burgas district, Burgas municipality, 70 Tsar Simeon I\n\n9.2 The Data Protection Officer (hereinafter – the «DPO») is COBRA. He is responsible for monitoring the Controller compliance with the GDPR, for informing and advising the Controller business of its obligations in relation to the processing of personal data. The DPO can be contacted at the following email address: support@d-pay.org"
+    }
+  },
+  "TermsAndConditionsPage": {
+    "head": "Terms and Conditions",
+    "b1": {
+      "head": "General provisions",
+      "text": "1.1 This General terms and conditions govern your use of the Payment Gateway and together with the Standard Operating Procedure and the Processing Agreement executed between «DINERO LLC» (hereinafter – “Company”) and the Client (hereinafter “Client” and “Company” jointly referred to as “Parties”) constitute an entire agreement between Parties (hereinafter – “Agreement”)."
+    },
+    "b2": {
+      "head": "Terms and definitions",
+      "text": "2.1 If in accordance with the applied rules of the payment systems any term is supposed to have another meaning which is different from the one stated herein, such a term shall be interpreted in accordance with the rules of the payment system.\n\n2.2 Terms used herein shall have the meaning specified in this clause, provided that they are capitalized:\n\n2.2.1 “Man Hour” means a unit for measuring working time equal to one hour of actual work of one person.\n\n2.2.2 “Acquirer” means a financial institute that performs full scope of financial transactions related to settlements and Card payments.\n\n2.2.3 “Issuing Bank” means a bank, which issues and maintains the Card.\n\n2.2.4 “Governmental Body” shall mean any government or governmental or regulatory body thereof, or political subdivision thereof, or any agency, instrumentality or authority thereof, or any court or arbitrator (public or private).\n\n2.2.5 “Card” means the tool for cashless transfers, designed for the Cardholder to make transactions using money on the bank account opened by the Issuing Bank to the Cardholder’s name under the agreement between such Cardholder and Issuing Bank.\n\n2.2.6 “Cardholder” means an individual or an authorized representative of a legal entity, in whose name the Card is issued.\n\n2.2.7 “Payment System” means the international payment system “Visa International”, the international payment system “MasterCard Worldwide, and other operators on transfer of digital money.\n\n2.2.8 “Payment Gateway” means the hardware and software complex deployed at the Payment System, which allows to automate the process of acceptance and making of payments.\n\n2.2.9 “Standard operating procedure” means the procedure of communication between the Client and the Company is published at the Company website1.\n\n2.2.10 Analytical Platform means the payment business management system and analytical platform of the Payment Gateway. Account in such a system is provided to the Client after the execution of this Agreement.\n\n2.2.11 “Transaction” means a payment transaction of settlement for products, works, and (or) services purchased (being purchased), executed with the use of the Card; or a financial transaction of transfer of funds using Mastercard Moneysend and Visa direct technologies.\n\n2.2.12 “Mobile Terminal” means an aggregate of a mobile device and a mobile POSterminal connected to it, designed to read the Card data and used in order to process payment transactions and/or for information exchange with the Payment Gateway via the Payment Gateway.\n\n2.2.13 “The cardholder data environment (CDE)” mean comprised of people, processes and technologies that store, process, or transmit Cardholder data or sensitive authentication data.\n\n2.2.14 “PCI DSS” (Payment Card Industry Data Security Standard) means the rules for secure storage, processing and transfer of data accepted in the payment cards industry and supported with the participation of Payment Systems.\n\n2.2.15 “Processing Service” means data processing and information exchange between Client, Acquirer and Cardholders via the Payment Gateway for the purpose of making agreed Transactions.\n\n2.2.16 “E-Commerce payment transaction” shall mean any payment Transaction issued to Payment Gateway from Internet website or Mobile Internet website.\n\n2.2.17 “Mobile payment transaction” shall mean any payment Transaction issued to Payment Gateway from Mobile terminal.\n\n2.2.18 “MOTO payment transaction” shall mean any payment transaction issued to Payment Gateway from a virtual terminal or e-terminal.\n\n2.2.19 “Deposit to card transfer transaction (D2C)” shall mean any Transaction issued to Payment Gateway from Internet website or Mobile Internet website aimed at transfer of monetary funds from the bank account of the Client to the Card in favor of the Cardholder.\n\n2.2.20 “Specification” shall mean a description of Payment Gateway, published at the Company website2.\n\n2.2.21 Terms “Support System”, “Account”, “Error” used herein, shall have the meaning provided by the Standard Operating Procedure.\n\n2.2.22 “Personal Data Processing Agreement” shall refer to Appendix #1 attached to these General Terms and Conditions which constitutes an integral part of thereof."
+    },
+    "b3": {
+      "head": "Availability of payment gateway",
+      "text": "3.1 The Company shall ensure accessibility of servers and databases of the Payment Gateway of no less than 95.0% of time per month (no more than 7.299 hours of downtime per month). Payment Gateway is deemed accessible if the servers it functions on work without Critical Errors as described in Standard operating procedure.\n\n3.2 Payment Gateway is provided on the terms of Internet access to the servers, where the software and the database management systems are hosted via interfaces provided in the Payment Gateway.\n\n3.3 To ensure the adequate level of quality and security Parties agreed to introduce the schedule of preventive maintenance works, during which time the Payment Gateway will be inaccessible. Procedure for preventive maintenance works is set forth in the Standard operating procedure. During the preventive maintenance works the Payment Gateway is deemed accessible despite the interruption.\n\n3.4 Measuring the availability of the servers’ connection with the Internet is carried out by an external monitoring service in accordance with Standard operating procedure.\n\n3.5 Company shall take reasonable measures to ensure the proper and continuous operation of the Payment Gateway and provision of the Processing Service all as indicated under Standard Operating Procedure."
+    },
+    "b4": {
+      "head": "New inventions",
+      "text": "4.1 OWNERSHIP OF NEW INVENTIONS\n4.1.1 The Client shall acquire no rights to new enhancements, translations, re-writings, revisions, updates, modifications, or improvements made by Company/Client in connection with the Payment Gateway (hereinafter — “the New Inventions”) which shall be considered as an integral part of the Payment Gateway, including but not limited to Acquirer integration software, from the moment of their creation unless parties agree to treat it differently and sign their intentions in the separate Agreement or Addendum to this contract.\n\n4.2 IMPLEMENTATION\n4.2.1 Company shall be entitled to implement, at any time, any New Invention at its own discretion without Client’s consent, providing it does not influence the way the Client uses the system."
+    },
+    "b5": {
+      "head": "Representations and warranties of company",
+      "text": "5.1 Company hereby covenants, represents, and warrants to Client that: (i) Company is a company validly existing and in good standing under the laws of Russia Company has full corporate power and authority to own, lease and operate its property and to carry on its business as conducted and is duly qualified to transact business. (ii) Company has full corporate power and authority to enter into and deliver the Agreement and all other agreements specified in or contemplated by the Agreement to be entered into and to perform its obligations hereunder and there under. The execution and delivery by Company of the Agreement and all other agreements specified in or contemplated by the Agreement to be entered into and the performance by Company of its obligations hereunder and there under have been duly authorized by all requisite action on its part. (iii) The Agreement has been duly executed and delivered by Company and constitutes the legal, valid and binding obligation of Company enforceable against it in accordance with its terms. Company warranties to the Client that it has the rights to use and provide services based on the Payment Gateway. (iv) Neither the execution and delivery by Company of the Agreement or any of the instruments or agreements herein referred to nor the consummation by it of any of the transactions contemplated hereby or thereby nor the performance by Company of the Agreement or any of the instruments or agreements herein referred to in accordance with their respective terms requires the consent, approval, order or authorization of, or registration with, or the giving of notice to any Governmental Body or any third party. (v) Neither the execution and delivery by Company of the Agreement or any of the instruments or agreements herein referred to nor the consummation by it of any of the transactions contemplated hereby or thereby nor compliance by Company with any of their respective terms and provisions will contravene any existing law of Russia or regulation or any judgment, decree or order applicable to or binding upon Company or will contravene or result in any breach of, or constitute any default under, its organizational documents or any agreement or instrument to which it is a party or by which it or any of its properties may be bound, or result in the creation of any Lien upon property of Company. (vi) Company provides the Client with guarantees of security of the Payment Gateway in accordance with the current version of the PCI DSS. The Company acknowledges that it is responsible for the security of Cardholder data that is being stored, processed, or transmitted within the Cardholder Data Environment (CDE) owned and managed by the Company."
+    },
+    "b6": {
+      "head": "Representations and warranties of client",
+      "text": "6.1 Client hereby covenants, represents, and warrants to Company that: (i) Client has full corporate power and authority to own, lease and operate its property and to carry on its business as conducted and is duly qualified to transact business, and is in good standing, in all jurisdictions wherein the nature of its business or its ownership, lease or operation of property requires Client to be qualified as a foreign corporation or where the failure so to qualify might impair its right to enforce its contracts or expose it or its business, properties or assets to material liabilities. (ii) Client has all the necessary licenses and permits for its business activities and will conduct its business in compliance with any and all laws and regulations applicable to the Client. (iii) Client has full corporate power and authority to enter into and deliver the Agreement, General Terms and all other agreements specified in or contemplated by the Agreement to be entered into and to perform its obligations hereunder and there under. The execution and delivery by Client of the Agreement and all other agreements specified in or contemplated by the Agreement to be entered into and the performance by Client of its obligations hereunder and there under have been duly authorized by all requisite action on its part. (iv) The Processing Agreement, the SOP, and the General Terms and all other agreements specified in or contemplated by the Agreement has been duly executed and delivered by Client and constitutes the legal, valid and binding obligation of Client enforceable against it in accordance with its terms. (v) Neither the execution and delivery by Client of the Agreement or any of the instruments or agreements herein referred to nor the consummation by it of any of the transactions contemplated hereby or thereby nor the performance by Client of the Agreement or any of the instruments or agreements herein referred to in accordance with their respective terms requires the consent, approval, order or authorization of, or registration with, or the giving of notice to any Governmental Body or any third party. (vi) Neither the execution and delivery by Client of the Agreement or any of the instruments or agreements herein referred to nor the consummation by it of any of the transactions contemplated hereby or thereby nor compliance by Client with any of their respective terms and provisions will contravene any existing law, rule or regulation or any judgment, decree or order applicable to or binding upon Client or will contravene or result in any breach of, or constitute any default under, its certificate of incorporation or by-laws or any agreement or instrument to which it is a party or by which it or any of its properties may be bound, or result in the creation of any Lien upon property of Client. (vii) The Client warrants and declares that the Client will not, and will not allow its Affiliates or any third party to: (I) copy, sell, license, distribute, transfer, modify, adapt, translate, prepare derivative works from, decompile, reverse engineer, disassemble the Payment Gateway and any part or component thereof, or otherwise perform illegal acts in relation to the Payment Gateway; (II) use the Payment Gateway to access, copy, transfer, transcode or retransmit content in violation of any law or third party rights; or (III) remove, obscure, or alter copyright notices, trademarks, or other proprietary rights affixed to or contained within the Payment Gateway if applicable. (viii) The Client acknowledges that the Company is sole a technology provider and is not and will at no event be deemed to be a party to any Transaction between the Client and its customers or brands. The Client will be sole and exclusively liable to its customers and brands and will be solely responsible to any relationships between the Client and its customers.\n\n(ix) Neither the Client nor any of its subsidiaries nor, to the knowledge of the Client, any director, officer, agent, employee or affiliate of the Client or any of its subsidiaries (i) is, or is controlled or 50% or more owned in the aggregate by or is acting on behalf of, one or more individuals or entities that are currently the subject of any Sanctions administered or enforced by the United States, the United Nations Security Council, the European Union, a member state of the European Union (including sanctions administered or enforced by Her Majesty’s Treasury of the United Kingdom) or other relevant sanctions authority (collectively, “Sanctions” and such persons, “Sanctioned Persons” and each such person, a “Sanctioned Person”), (ii) is located, organized or resident in a country or territory that is, or whose government is, the subject of Sanctions that broadly prohibit dealings with that country or territory (collectively, “Sanctioned Countries” and each, a “Sanctioned Country”) or (iii) will, directly or indirectly, use the proceeds of Processing Service or otherwise make available such proceeds to any subsidiary, joint venture partner or other individual or entity in any manner that would result in a violation of any Sanctions by, or could result in the imposition of Sanctions against, any individual or entity. Neither the Client nor any of its subsidiaries has engaged in any dealings or transactions with or for the benefit of a Sanctioned Person, or with or in a Sanctioned Country, in the preceding 5 years, nor does the Client or any of its subsidiaries have any plans to engage in dealings or transactions with or for the benefit of a Sanctioned Person, or with or in a Sanctioned Country."
+    },
+    "b7": {
+      "head": "Liability of the company",
+      "text": "7.1 CLIENT ACKNOWLEDGES THAT THE PAYMENT GATEWAY, THE PROCESSING SERVICES AND/OR (DINERO LLC) API HEREUNDER ARE PROVIDED «AS IS», AND COMPANY DOES NOT WARRANT THAT THE USE OF THE PAYMENT GATEWAY, THE PROCESSING SERVICES, AND/OR — (DINERO LLC) API FURNISHED IN CONNECTION WITH THIS AGREEMENT WILL BE UNINTERRUPTED OR ERROR-FREE. EXCEPT AS PROVIDED HEREIN THIS AGREEMENT, COMPANY PROVIDES NO REPRESENTATIONS OR WARRANTIES WITH RESPECT TO THE PAYMENT GATEWAY OR THE PROCESSING SERVICE AND ITS FITNESS OR COMPATIBILITY WITH ANY PURPOSE.\n\n7.2 Notwithstanding the aforesaid, the parties acknowledged that the use of the Payment Gateway is subject to factors which are not within Company’s control. The Company shall not be liable to any failure in the provision of the Processing Service which is caused exclusively by factors which are not in Company’s control.\n\n7.3 The indemnification hereunder shall apply to all liabilities, damages, losses, expenses, claims, demands, suits proceedings, fines, judgments or execution proceedings (including without limitation, any reasonable legal fees, costs and related expenses) incurred or suffered by any indemnified party as a result of indemnified event as detailed above and any claims or proceedings brought by any third party arising out of or in connection with any breach of the indemnifying party’s obligations under the Agreement, gross negligence or wilful misconduct on the part of the indemnifying party or anyone acting on its behalf.\n\n7.4 Notwithstanding anything in the Agreement, Company’s total aggregate liability for all claims related to the Agreement, whether based on an action or claim in contract, tort (including negligence), breach of statutory duty or otherwise arising out of, or in relation to the Agreement, will be to 100% of the monthly average fees actually paid to the Company pursuant to the Agreement in the three (3) calendar month period prior to the cause of action giving rise to the first claim made under this Agreement.\n\n\n7.5 NOTWITHSTANDING ANYTHING TO THE CONTRARY, EXCEPT FOR WILLFUL MISCONDUCT OR GROSS NEGLIGENCE, THE COMPANY SHALL BEAR NO LIABILITY TO THE CLIENT WITH RESPECT TO ANY AND ALL INDIRECT, CONSEQUENTIAL, INCIDENTAL AND PUNITIVE DAMAGES CAUSED TO THE CLIENT UNDER THIS AGREEMENT, INCLUDING BUT NOT LIMITED, LOSS OF DATA OR LOSS OF PROFITS, REGARDLESS IF COMPANY WAS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES."
+    },
+    "b8": {
+      "head": "Liability of the client",
+      "text": "8.1 In the event of failure by the Client to pay any invoice on its due date, the Company will be entitled to suspend or terminate the license and services rendered to the Client under this Agreement with immediate effect upon notice to the Client, and in addition to any other remedy to which the Company is entitled under this Agreement or any applicable law.\n\n8.2 Client shall defend, indemnify, and hold Company and its respective officers, directors, agents, employees harmless from claim, demand, fine, or other liability incurred by any such party due to or arising out of any breach of the Agreement by the Client or any party on Client’s behalf."
+    },
+    "b9": {
+      "head": "Consideration, taxes and settlement currency",
+      "text": "9.1 Collection. The Client is solely responsible for collection of payment from the Acquirer, and that the fees due to the Company are due to the Company without delay whether the Client collected payments from the Acquirer or not.\n\n9.2 Taxes. The Client shall pay or reimburse to Company any applicable taxes and charges levied by any government authority on the services received by Client, including (not limited) value added tax, services tax.\n\n9.3 Settlement currency. All sums of money due in consideration to the rendered services, will be calculated in invoices in euro currency. If some Transactions will be denominated in currencies other than euro, Company should apply exchange rate which is established by the European Central Bank (ECB) on date of each Transaction.\n\n9.4 Invoicing. Company shall issue the Client an invoice for the fees due for the Processing Service once per month before the 7th day of the calendar month following the month in which the Processing Services have been rendered. Client will pay the invoice within ten (10) calendar days from receiving the invoice via email."
+    },
+    "b10": {
+      "head": "Terms and termination",
+      "text": "10.1 Term of the Agreement is one year from the day of signing the Agreement by both Parties. The Agreement is deemed prolonged for one year under the same terms and conditions each time provided that neither Party to the Agreement notifies the other Party about its intention to terminate the Agreement by sending written notice three (3) months prior to expiration of the Agreement term.\n\n10.2 The Agreement may be terminated only as follows:\n\n10.2.1 by mutual agreement of Company and Client; or\n\n10.2.2 by Company unilaterally without any reason provided that the Company notifies the Client one (1) months in advance about Agreement termination; or\n\n\n10.2.3 by Company in the event: (a) Client files a petition in bankruptcy; (b) Client is adjudicated as bankrupt or insolvent; (c) a petition in bankruptcy is filed against Client and such petition remains undismissed, unstayed or unbonded for a period of more than 90 days; (d) Client makes a general assignment for the benefit of its creditors or an arrangement pursuant to any bankruptcy law; (e) Client applies for or consents to the appointment of a receiver, trustee, custodian, sequestrate, liquidator or similar official for itself or any of its assets or properties; (f) Client fails or is unable, or admits in writing to its inability, to pay its debts generally as they become due; (g) Client conceals, removes or transfers any of its assets or properties in violation or evasion of any bankruptcy, fraudulent conveyance or similar applicable law; (h) Client discontinues its business; or (i) the Client breached the Agreement and fails to remedy such breach within seven (7) days following receipt of notice from the Company; or (j) Client takes any action for the purpose of effecting any of the foregoing; or by operation of law. Notwithstanding the above mentioned, the Company will be entitled to terminate this Agreement with immediate effect by providing the Client with notice in the event the Company is prohibited from providing the License or the Processing Service by any regulative, legal or governmental authorities.\n\n10.2.4 By the Client unilaterally and without any reason provided that the Company is provided with three (3) months written advance notice; or\n\n10.2.5 By the Client in the event (a) Company files a petition in bankruptcy; (b) Company is adjudicated as bankrupt or insolvent; (c) a petition in bankruptcy is filed against Company and such petition remains undismissed, unstayed or unbonded for a period of more than 90 days; (d) Company makes a general assignment for the benefit of its creditors or an arrangement pursuant to any bankruptcy law; (e) Company applies for or consents to the appointment of a receiver, trustee, custodian, sequestrate, liquidator or similar official for itself or any of its assets or properties; (f) Company fails or is unable, or admits in writing to its inability, to provide the Services in accordance to the Agreement; (g) Company conceals, removes or transfers any of its assets or properties in violation or evasion of any bankruptcy, fraudulent conveyance or similar applicable law; (h) Company discontinues its business; or (i) Company takes any action for the purpose of effecting any of the foregoing; or by operation of law. 10.3 Any provisions of the Agreement, including the General Terms and all other agreements specified in or contemplated by the Agreement which by their nature should survive the termination of the Agreement, will survive the termination thereof."
+    },
+    "b11": {
+      "head": "Confidential information",
+      "text": "11.2.1 For the purposes of this Agreement, Confidential Information will not include any information that has been:\n\n11.2.1.1 publicly known and made generally available in the public domain, through no action or inaction of the parties;\n\n11.2.1.2 already in the possession of the party receiving the information at the time of disclosure by a Disclosing Party, as demonstrated by documentary evidence;\n\n11.2.1.3 obtained by the Receiving Party from a third party without a breach of such third party’s obligations of confidentiality, as demonstrated by documentary evidence; or;\n\n11.2.1.4 independently developed by the Receiving Party without use of or reference to the Confidential Information, as demonstrated by documentary evidence.\n\n11.3 RESTRICTIONS ON USE\n11.3.1 Receiving Party agrees and undertakes that it will not use the Confidential Information except in accordance with the purpose of this Agreement nor will it disclose any Confidential Information to any third parties without the Disclosing Party’s written consent.\n\n11.3.2 Receiving Party may disclose the Confidential Information if required by law, so long as it gives the Disclosing Party prompt written notice of such requirement prior to such disclosure (unless such notice is prohibited by law) and assistance in obtaining an order protecting the Confidential Information from public disclosure. If such an order is not obtained, Receiving Party shall disclose only that portion of the Confidential Information which is legally required, and shall ensure confidential treatment of such information.\n\n11.3.3 Except for backup of the Confidential Information, Receiving Party shall not make any copies of any Confidential Information without the prior written consent of the Disclosing.\n\n11.4 STANDARD OF CARE\n11.4.1 Receiving Party agrees that it shall hold all Confidential Information in strict confidence and shall safeguard the Confidential Information with the highest reasonable degree of care, while taking all reasonable precautions necessary to protect the secrecy and preserve the confidentiality of the Confidential Information.\n\n11.4.2 Without limiting the foregoing, Receiving Party will take at least those measures that it takes to protect its own confidential information but take not less than reasonable measures and utilize not less than a reasonable standard of care.\n\n11.5 PERMITTED DISCLOSURE\n11.5.1 Receiving Party agrees not to disclose, even in part, any Confidential Information, except as provided herein. Disclosing Party shall only make the Confidential Information, and even then, specifically the relevant parts thereof, available to its employees, consultants, affiliates, agents and subcontractors, excluding any entity (and any personnel of such entity) that is a competitor of the Disclosing Party, on a “need to know” basis in order to carry out the purpose of the Agreement (such recipients, collectively, the “Authorized Recipients”).\n\n11.5.2 Prior to any disclosure of the Disclosing Party’s Confidential Information to the Authorized Recipients to the extent permitted hereunder, the Receiving Party will ensure that such Authorized Recipients are bound by a non-use and non-disclosure agreement that contains provisions in respect of disclosure and use of Confidential Information that are substantially similar to the applicable provisions of this clause. Furthermore, each party will reproduce the other party’s proprietary rights and confidentiality notices on any approved copies of Confidential Information.\n\n\n11.6 INJUNCTIVE RELIEF\n11.6.1 The parties acknowledge that unauthorized disclosure or use of Confidential Information may give rise to irreparable injury, which may not be adequately compensated by damages. The Parties agree and acknowledge that money damages may not be a sufficient remedy for any breach or threatened breach of this Agreement by either party and that the other party shall be entitled to seek specific performance or injunctive relief (as appropriate) as a remedy for any breach or threatened breach thereof, in addition to any other remedies available at law or in equity.\n\n11.7 RETURN OF MATERIALS\n11.7.1 Upon the written request of the Disclosing Party, the Receiving Party shall promptly return to the Disclosing Party or destroy all copies of the Confidential Information. Receiving Party shall furnish the Client, together with such returned materials or subsequent to any destruction thereof, a certificate duly executed by an officer of such party, confirming that the provisions of this section have been complied with. Return or destruction of the Confidential Information as required hereunder shall not affect the remaining obligations pursuant to this Agreement."
+    },
+    "b12": {
+      "head": "Force majeure",
+      "text": "12.1 If performance by any Party of any service or obligation under this Agreement is prevented, restricted, delayed or interfered with by reason of, inter alia, strikes, acts of God, fire, floods, lightning, earthquakes, severe weather, utility or communication failures, failures of any relevant bank or network, DDoS attacks, computer associated outages or delay in receiving electronic data, war, civil commotion, or any law, order or regulation, etc. having legal effect, then that Party shall be excused from its performance hereunder to the extent and duration of the prevention, restriction, delay or interference."
+    },
+    "b13": {
+      "head": "Infringements",
+      "text": "13.1 Each Party shall promptly upon learning of same notify the other Party of the facts and circumstances surrounding any alleged infringement of the rights or misappropriation of the rights or any right of either party known to the other Party hereto."
+    },
+    "b14": {
+      "head": "Miscellaneous",
+      "text": "14.1 ASSIGNMENT. Client shall not assign or transfer the Agreement or any part thereof to any other entity without the prior written consent of the Company. The Company will be entitled to assign this Agreement by notifying the Client. Upon assignment to an Affiliate, the references in the Agreement to Company or Client, as applicable, shall also apply to any such assignee unless the context otherwise requires.\n\n14.2 NO PARTNERSHIP OR JOINT VENTURE. Nothing herein contained shall be construed to place the parties in relationship of partners or joint ventures, and Client shall have no power to obligate or bind Company in any manner whatsoever.\n\n14.3 SEVERABILITY. If any provision or provisions of the Agreement shall be held to be invalid, illegal or unenforceable, the validity, legality and enforceability of the remaining provisions shall not in any way be affected or impaired thereby.\n\n14.4 COMMUNICATION BETWEEN PARTIES. Communication between Parties shall be performed in accordance with the order stated in Standard operating procedure.\n\n14.5 DISPUTE RESOLUTION. Any dispute, controversy or claim between the Parties hereto arising out of or relating to this Agreement or any alleged breach thereof which cannot be amicably settled between the parties shall be exclusively referred to arbitration.\n\n14.6 GOVERNING LAW & JURISDICTION. This agreement and any dispute or claim arising out of or in connection with it or its subject matter or formation (including non contractual disputes or claims) shall be governed exclusively by and construed in accordance with the laws of Russia.\n\n14.7 COSTS AND EXPENSES. Company and Client shall each bear its own costs and expenses incurred in connection with the negotiation and execution of the Agreement and each other agreement, document and instrument contemplated by the Agreement and the consummation of the transactions contemplated hereby and thereby.\n\n\n14.8 HEADINGS. The headings used in the Agreement are for convenience only and do not define, limit or construe the contents thereof.\n\n14.9 CONSTRUCTION. Whenever used in the Agreement, the singular shall be construed to include the plural and vice versa, where applicable, and the use of the masculine, feminine or neuter gender shall include the other genders.\n\n14.10 COUNTERPARTS. This Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.\n\n14.11 THIRD-PARTY CONTRACTS. The Company may enter any agreements and sign appropriate contracts required to deliver its services, e.g. with banks, third-party PSPs or any other organizations, including the ones that have relations with the Client.\n\n14.12 THIRD PARTY RIGHTS. A Person who is not a party to this agreement shall not have any rights under the Contracts (Rights of Third Parties) Act 1999 to enforce any term of this agreement. The rights of the parties to terminate, rescind or agree any variation, waiver or settlement under this agreement are not subject to the consent of any other person.\n\n14.13 RESPONSIBILITY. Client shall independently render services to its contract partners, Company bears no responsibility for the activity performed by Client."
+    }
+  },
+  "footer": {
+    "largeText": "Payment solutions in\nthe field of internet acquiring",
+    "smallText": "is not a bank or a payment system, payments, transfers and storage of funds are carried out by licensed partner banks."
+  }
+}

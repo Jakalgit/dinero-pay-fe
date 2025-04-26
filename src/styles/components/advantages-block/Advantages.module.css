@@ -1,0 +1,60 @@
+.largeText {
+    font-size: 40px;
+    margin-bottom: 28px;
+}
+
+.smallText {
+    font-size: 20px;
+}
+
+.descriptionBlock {
+    grid-column: 1 / -1;
+    padding: 40px;
+    border-radius: 35px;
+    margin-top: 20px;
+}
+
+@media (max-width: 1199px) {
+    .largeText {
+        font-size: 36px;
+    }
+
+    .smallText {
+        font-size: 18px;
+    }
+
+    .descriptionBlock {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .largeText {
+        font-size: 32px;
+    }
+
+    .descriptionBlock {
+        padding: 22px;
+        border-radius: 25px;
+    }
+}
+
+@media (max-width: 575px) {
+    .largeText {
+        font-size: 30px;
+    }
+
+    .smallText {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 380px) {
+    .largeText {
+        font-size: 28px;
+    }
+
+    .smallText {
+        font-size: 14px;
+    }
+}

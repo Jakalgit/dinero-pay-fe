@@ -1,0 +1,50 @@
+.startForm {
+    height: 155px;
+    width: 100%;
+    left: 0;
+    top: 40px;
+    padding: 15px 23px 23px;
+    border-radius: 20px;
+    scroll-margin-top: 50vh;
+}
+
+.formName {
+    font-size: 26px;
+}
+
+.inputs {
+    gap: 14px;
+}
+
+.inputs div {
+    flex: 1;
+}
+
+.button {
+    gap: 3px;
+}
+
+.button svg {
+    width: 24px;
+}
+
+@media (max-width: 1199px) {
+    .startForm {
+        height: auto;
+        gap: 25px;
+    }
+
+    .inputs {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .inputs {
+        flex-direction: column;
+    }
+
+    .inputs div {
+        flex: initial;
+    }
+}

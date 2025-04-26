@@ -1,0 +1,41 @@
+.line {
+    height: 1px;
+    margin: 50px 0;
+}
+
+.bottomBlock {
+    gap: 70px;
+}
+
+.bottomBlock svg {
+    width: 36px;
+    flex-shrink: 0;
+}
+
+.bottomBlock div {
+    gap: 24px;
+}
+
+@media (max-width: 1199px) {
+    .line {
+        margin: 40px 0;
+    }
+
+    .bottomBlock {
+        gap: 40px;
+    }
+
+    .bottomBlock svg {
+        width: 32px;
+    }
+
+    .bottomBlock div {
+        gap: 18px;
+    }
+}
+
+@media (max-width: 991px) {
+    .bottomBlock {
+        flex-direction: column;
+    }
+}

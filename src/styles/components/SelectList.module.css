@@ -1,0 +1,22 @@
+.svg {
+    width: 32px;
+    aspect-ratio: 1;
+}
+
+.list {
+    margin-top: 8px;
+    min-width: 200px;
+    border-radius: 10px;
+    z-index: 5;
+}
+
+.list li {
+    height: 40px;
+    padding-left: 14px;
+}
+
+@media (max-width: 1199px) {
+    .svg {
+        width: 28px;
+    }
+}

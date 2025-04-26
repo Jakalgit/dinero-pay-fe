@@ -1,0 +1,204 @@
+
+.footer {
+    margin-top: 91px;
+    border-radius: 50px 50px 0 0;
+}
+
+.footerLine {
+    height: 80px;
+}
+
+.name {
+    font-size: 30px;
+
+    & span {
+        font-size: 22px;
+    }
+}
+
+.links {
+    gap: 75px;
+}
+
+.description, .links a {
+    font-size: 18px;
+}
+
+.description {
+    gap: 51px;
+}
+
+.middleLine {
+    padding: 36px 0;
+    gap: 60px;
+}
+
+.leftMiddle {
+    flex: 1;
+}
+
+.rightMiddle {
+    flex: 1;
+}
+
+.smallText {
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.contacts {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 14px;
+}
+
+.contactBlock {
+    height: 56px;
+    border-radius: 28px;
+    padding: 7px;
+    gap: 8px;
+}
+
+.contactBlock svg {
+    height: 100%;
+    aspect-ratio: 1;
+    flex-shrink: 0;
+}
+
+.smallContactText {
+    font-size: 12px;
+}
+
+.largeContactText {
+    font-size: 14px;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.firstContact {
+    grid-column: span 1;
+}
+
+.secondContact {
+    grid-column: span 1;
+}
+
+.thirdContact {
+    grid-column: span 2;
+}
+
+.langButton {
+    gap: 8px;
+}
+
+.langButton svg {
+    width: 24px;
+}
+
+@media (max-width: 1399px) {
+    .middleLine {
+        padding: 36px 0;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .links {
+        gap: 40px;
+    }
+
+    .middleLine {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 991px) {
+    .footerLine {
+        height: 70px;
+    }
+
+    .name {
+        font-size: 26px;
+    }
+
+    .links {
+        gap: 20px;
+    }
+
+    .links a {
+        font-size: 14px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .description {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+    }
+
+    .bottomLine {
+        height: auto;
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .footerLine {
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .footerLineContainer {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .links {
+        gap: 35px;
+    }
+}
+
+@media (max-width: 575px) {
+    .footer {
+        border-radius: 25px 25px 0 0;
+    }
+
+    .contacts {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .smallText {
+        font-size: 16px;
+    }
+
+    .contactBlock {
+        min-width: 0;
+    }
+
+    .firstContact, .secondContact, .thirdContact {
+        grid-column: initial;
+    }
+}
+
+@media (max-width: 525px) {
+    .links {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footerLineContainer {
+        align-items: center;
+    }
+}

@@ -1,0 +1,23 @@
+.scrollContainer {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.scrollContent {
+    display: flex;
+    flex-shrink: 0;
+    min-width: 200%; /* Чтобы контент уехал плавно */
+}
+
+.item {
+    padding-right: 60px;
+}
+
+@media (max-width: 991px) {
+    .item {
+        padding-right: 45px;
+    }
+}

@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #263238;
+
+    --golos-text-font: "Golos Text";
+    --geologica-text-font: "Geologica";
+    --gravitas-one-text-font: "Gravitas one";
+    --dancing-script-text-font: "Dancing Script";
+
+    --blue-color-1: #90CAF9;
+    --blue-color-2: #2196F3;
+    --blue-color-3: #5A7C95;
+    --blue-color-4: #455A64;
+    --blue-color-5: #314149;
+
+    --dark-color-1: #1E272C;
+}
+
+html, body {
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 320px;
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+svg {
+    fill: white;
+}
+
+.golos-text {
+    font-family: var(--golos-text-font), serif;
+}
+
+.geologica {
+    font-family: var(--geologica-text-font), serif;
+}
+
+.gravitas-one {
+    font-family: var(--gravitas-one-text-font), serif;
+}
+
+.dancing-script {
+    font-family: var(--dancing-script-text-font), serif;
+}
+
+.largeText {
+    font-size: 38px;
+}
+
+.mediumText {
+    font-size: 18px;
+}
+
+@media (max-width: 1199px) {
+    .largeText {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 991px) {
+    .largeText {
+        font-size: 32px;
+    }
+
+    .mediumText {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 575px) {
+    .largeText {
+        font-size: 28px;
+    }
+
+    .mediumText {
+        font-size: 16px;
+    }
+
+    .sectionName {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 420px) {
+    .largeText {
+        font-size: 24px;
+    }
+
+    .mediumText {
+        font-size: 14px;
+    }
+}

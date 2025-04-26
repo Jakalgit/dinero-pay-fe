@@ -1,0 +1,57 @@
+.header {
+    height: 50px;
+    left: 0;
+    top: 0;
+}
+
+.header div {
+    gap: 55px;
+}
+
+.header a {
+    font-size: 22px;
+}
+
+.header a {
+    font-size: 14px;
+}
+
+.button {
+    display: none;
+    padding: 0 3px;
+    border-radius: 4px;
+}
+
+.button svg {
+    width: 22px;
+}
+
+.lineLinks {
+    display: flex;
+}
+
+@media (max-width: 1199px) {
+    .header div {
+        gap: 35px;
+    }
+
+    .header p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .lineLinks {
+        display: none;
+    }
+
+    .columnLinks {
+        margin-top: 20px;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .button {
+        display: flex;
+    }
+}

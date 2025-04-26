@@ -1,0 +1,107 @@
+.block {
+    height: 350px;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 2;
+}
+
+.messageWrapper {
+    transform: translateY(0);
+}
+
+.message {
+    padding: 9px 12px;
+    border-radius: 14px;
+    width: 240px;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.messageAbsolute {
+    transform: translateY(-30%) translateX(50%);
+}
+
+.message svg {
+    width: 34px;
+}
+
+.messageHead {
+    font-size: 16px;
+}
+
+.messageText {
+    font-size: 14px;
+}
+
+@media (max-width: 1199px) {
+    .block {
+        height: 300px;
+    }
+
+    .messageWrapper {
+        transform: translateY(20%) translateX(-20%);
+    }
+
+    .right {
+        flex: 1;
+    }
+}
+
+@media (max-width: 991px) {
+    .block {
+        flex-direction: column;
+        height: auto;
+        gap: 60px;
+    }
+
+    .messageWrapper {
+        transform: translateY(0) translateX(-25%);
+    }
+}
+
+@media (max-width: 430px) {
+    .message {
+        padding: 7px 10px;
+        border-radius: 12px;
+        width: 200px;
+        height: 100px;
+    }
+
+    .message svg {
+        width: 30px;
+    }
+
+    .messageHead {
+        font-size: 14px;
+    }
+
+    .messageText {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 360px) {
+    .message {
+        padding: 6px 9px;
+        border-radius: 12px;
+        width: 180px;
+        height: 90px;
+    }
+
+    .message svg {
+        width: 28px;
+    }
+
+    .messageHead {
+        font-size: 12px;
+    }
+
+    .messageText {
+        font-size: 10px;
+    }
+}

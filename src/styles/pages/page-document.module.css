@@ -1,0 +1,51 @@
+
+.main {
+    margin-top: 10vh;
+}
+
+.pageHead {
+    font-size: 30px;
+    margin-bottom: 34px;
+}
+
+.list {
+    gap: 64px;
+}
+
+.listBlock h2 {
+    font-size: 24px;
+    margin-bottom: 21px;
+}
+
+.listBlock p {
+    font-size: 20px;
+}
+
+@media (max-width: 991px) {
+    .pageHead {
+        font-size: 28px;
+    }
+
+    .listBlock h2 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .listBlock p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 575px) {
+    .pageHead {
+        font-size: 26px;
+    }
+
+    .listBlock h2 {
+        font-size: 20px;
+    }
+
+    .listBlock p {
+        font-size: 16px;
+    }
+}

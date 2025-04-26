@@ -1,0 +1,232 @@
+.advantagesWrapper {
+    margin-top: 6px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 45px;
+    grid-auto-rows: max-content;
+}
+
+.block {
+    border-radius: 30px;
+    padding: 34px 0;
+    aspect-ratio: 1;
+    margin-top: 45px;
+}
+
+.block h4 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.buttonFontSize {
+    font-size: 18px;
+}
+
+.buttonConnect {
+    gap: 6px;
+}
+
+.buttonConnect svg {
+    width: 20px;
+}
+
+.buttonExpand {
+    gap: 11px;
+    padding: 0 16px;
+    height: 42px;
+    border-radius: 21px;
+}
+
+.buttonExpand svg {
+    width: 24px;
+}
+
+.s1, .s2, .s3 {
+    grid-row: 1;
+}
+
+.s4, .s5, .s6 {
+    grid-row: 5;
+}
+
+.b1 {
+    grid-row: 2;
+}
+
+.b2 {
+    grid-row: 3;
+}
+
+.b3 {
+    grid-row: 4;
+}
+
+.b4 {
+    flex-grow: 5;
+}
+
+.b5 {
+    flex-grow: 6;
+}
+
+.b6 {
+    flex-grow: 7;
+}
+
+@media (max-width: 1199px) {
+    .advantagesWrapper {
+        margin-top: 30px;
+        column-gap: 28px;
+    }
+
+    .block {
+        border-radius: 25px;
+        padding: 28px 0;
+        margin-top: 28px;
+    }
+
+    .block h4 {
+        font-size: 26px;
+    }
+
+    .buttonFontSize {
+        font-size: 16px;
+    }
+
+    .buttonConnect {
+        gap: 5px;
+    }
+
+    .buttonConnect svg {
+        width: 18px;
+    }
+}
+
+@media (max-width: 991px) {
+    .advantagesWrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .s3, .s4 {
+        grid-row: 4;
+    }
+
+    .s5, .s6 {
+        grid-row: 7;
+    }
+
+    .b1 {
+        grid-row: 2;
+    }
+
+    .b2 {
+        grid-row: 3;
+    }
+
+    .b3 {
+        grid-row: 5;
+    }
+
+    .b4 {
+        flex-grow: 6;
+    }
+
+    .b5 {
+        flex-grow: 8;
+    }
+
+    .b6 {
+        flex-grow: 9;
+    }
+}
+
+@media (max-width: 767px) {
+    .block {
+        border-radius: 20px;
+        padding: 22px 0;
+    }
+
+    .block h4 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 575px) {
+    .block {
+        aspect-ratio: 1.5 / 1;
+    }
+
+    .advantagesWrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .block h4 {
+        font-size: 28px;
+    }
+
+    .buttonFontSize {
+        font-size: 18px;
+    }
+
+    .s1 {
+        grid-row: 1;
+    }
+
+    .b1 {
+        grid-row: 2;
+    }
+
+    .s2 {
+        grid-row: 3;
+    }
+
+    .b2 {
+        grid-row: 4;
+    }
+
+    .s3 {
+        grid-row: 5;
+    }
+
+    .b3 {
+        grid-row: 6;
+    }
+
+    .s4 {
+        grid-row: 7;
+    }
+
+    .b4 {
+        flex-grow: 8;
+    }
+
+    .s5 {
+        grid-row: 9;
+    }
+
+    .b5 {
+        flex-grow: 10;
+    }
+
+    .s6 {
+        grid-row: 11;
+    }
+
+    .b6 {
+        flex-grow: 12;
+    }
+}
+
+@media (max-width: 400px) {
+    .block {
+        padding: 16px 0;
+    }
+
+    .block h4 {
+        font-size: 25px;
+    }
+
+    .buttonFontSize {
+        font-size: 16px;
+    }
+}

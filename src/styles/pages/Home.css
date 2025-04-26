@@ -1,0 +1,13 @@
+.sectionName {
+    font-size: 18px;
+}
+
+h2 {
+    scroll-margin-top: 60px;
+}
+
+@media (max-width: 575px) {
+    .sectionName {
+        font-size: 16px;
+    }
+}

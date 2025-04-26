@@ -1,0 +1,21 @@
+.wrapper {
+    padding: 0 14px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.input {
+    font-size: 18px;
+}
+
+@media (max-width: 1199px) {
+    .wrapper {
+        padding: 0 10px;
+        border-radius: 8px;
+        height: 46px;
+    }
+
+    .input {
+        font-size: 16px;
+    }
+}

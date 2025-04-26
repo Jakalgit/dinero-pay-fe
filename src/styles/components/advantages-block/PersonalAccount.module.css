@@ -1,0 +1,23 @@
+.blocks {
+    margin-top: 36px;
+    gap: 24px;
+}
+
+.block {
+    padding: 8px 20px 8px 14px;
+    gap: 9px;
+    border-radius: 18px;
+    min-height: 50px;
+}
+
+.block svg {
+    flex-shrink: 0;
+    width: 26px;
+}
+
+@media (max-width: 575px) {
+    .blocks {
+        margin-top: 28px;
+        gap: 18px;
+    }
+}

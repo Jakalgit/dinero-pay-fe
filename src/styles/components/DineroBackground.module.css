@@ -1,0 +1,25 @@
+.registrationBackground {
+    z-index: 0;
+
+    --icon-size: 30px;
+    --icon-gap: 50px;
+    --row-gap: 26px;
+}
+
+.container {
+    gap: var(--row-gap);
+}
+
+.row {
+    gap: var(--icon-gap);
+}
+
+.diamondIcon {
+    width: var(--icon-size);
+    aspect-ratio: 1;
+    fill: rgba(255, 255, 255, 0.05);
+}
+
+.highlighted {
+    fill: rgba(255, 255, 255, 0.8);
+}
