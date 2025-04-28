@@ -27,7 +27,7 @@ export const HomeAdvantages: React.FC<IProps> = ({ countries }) => {
 		{
 			id: 1,
 			name: t("blocks.b1"),
-			imgTop: 10,
+			imgTop: 4,
 			block: <CustomizablePayment />,
 			classNameBlock: styles.b1,
 			classNameSquare: styles.s1
@@ -35,7 +35,7 @@ export const HomeAdvantages: React.FC<IProps> = ({ countries }) => {
 		{
 			id: 2,
 			name: t("blocks.b2"),
-			imgTop: 18,
+			imgTop: 13,
 			block: <ApiIntegration />,
 			classNameBlock: styles.b2,
 			classNameSquare: styles.s2
@@ -43,7 +43,7 @@ export const HomeAdvantages: React.FC<IProps> = ({ countries }) => {
 		{
 			id: 3,
 			name: t("blocks.b3"),
-			imgTop: 23,
+			imgTop: 19,
 			block: <PersonalAccount />,
 			classNameBlock: styles.b3,
 			classNameSquare: styles.s3
@@ -59,7 +59,7 @@ export const HomeAdvantages: React.FC<IProps> = ({ countries }) => {
 		{
 			id: 5,
 			name: t("blocks.b5"),
-			imgTop: 4,
+			imgTop: 2,
 			block: <SupportBot />,
 			classNameBlock: styles.b5,
 			classNameSquare: styles.s5
@@ -67,7 +67,7 @@ export const HomeAdvantages: React.FC<IProps> = ({ countries }) => {
 		{
 			id: 6,
 			name: t("blocks.b6"),
-			imgTop: 8,
+			imgTop: 5,
 			block: <Geo isoCodes={countries} />,
 			classNameBlock: styles.b6,
 			classNameSquare: styles.s6

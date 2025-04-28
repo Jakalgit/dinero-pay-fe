@@ -466,6 +466,10 @@
         width: 75px;
     }
 
+    .cardsImage {
+        display: none;
+    }
+
     /* Секция 5 */
 
     .paymentSolutionsBlock svg {
@@ -481,10 +485,6 @@
     .section2 {
         border-radius: 25px;
         padding-top: 25px;
-    }
-
-    .cardsImage {
-        width: 320px;
     }
 }
 
