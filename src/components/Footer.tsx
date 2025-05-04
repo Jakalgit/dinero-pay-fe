@@ -121,10 +121,10 @@ const Footer: React.FC<FooterProps> = async ({contacts}) => {
 							</a>
 							<div
 								className={`flex items-center bg-[color:var(--blue-color-5)] !border border-[color:var(--blue-color-3)] 
-									${styles.thirdContact} ${styles.contactBlock}`}
+									overflow-x-auto ${styles.thirdContact} ${styles.contactBlock}`}
 							>
 								<MailIcon/>
-								<div className="geologica flex flex-col justify-between min-w-0">
+								<div className="geologica flex flex-col justify-between">
 									<p className={`text-white-50 ${styles.smallContactText}`}>
 										Address
 									</p>

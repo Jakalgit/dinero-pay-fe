@@ -178,7 +178,7 @@
     }
 
     .contactBlock {
-        min-width: 0;
+        min-width: auto;
     }
 
     .firstContact, .secondContact, .thirdContact {
