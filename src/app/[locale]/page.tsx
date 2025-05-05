@@ -1,7 +1,7 @@
 import "@/styles/pages/Home.css";
 import MotionMain from "@/components/client/MotionMain";
 import styles from "@/styles/pages/Home.module.css";
-import DineroPayments from "@/components/client/DineroPayments";
+import DineroPayments from "@/components/client/DineroPayments/DineroPayments";
 import {Container, Row} from "react-bootstrap";
 import {getTranslations} from "next-intl/server";
 import ArrowIcon from "@/components/icons/ArrowIcon";

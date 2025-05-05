@@ -1,8 +1,8 @@
 "use client";
 
-import React from 'react';
-import DollarIcon from "@/components/icons/DollarIcon";
+import React, {useEffect, useState} from 'react';
 import styles from "@/styles/components/DineroPayment.module.css";
+import IconsLine from "@/components/client/DineroPayments/IconsLine";
 
 interface IProps {
 	wrapperAttrs?: React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>,
@@ -12,18 +12,34 @@ const DineroPayments: React.FC<IProps> = ({ wrapperAttrs }) => {
 
 	const dollarIconsByRows = [5, 6, 5, 4, 2];
 
+	const [randomLineIndex, setRandomLineIndex] = useState(-1);
+
+	useEffect(() => {
+		const interval = setInterval(() => {
+			setRandomLineIndex(prevState => {
+				if (prevState + 1 >= dollarIconsByRows.length) {
+					return 0
+				} else {
+					return prevState + 1;
+				}
+			});
+		}, 1000);
+
+		return () => clearInterval(interval);
+	}, []);
+
 	return (
 		<div {...wrapperAttrs}>
-			<div className="flex flex-col items-center justify-center relative">
+			<div
+				className={`flex flex-col items-center justify-center relative ${styles.wrapper}`}
+			>
 				{dollarIconsByRows.map((numberOfIcons, i) =>
-					<div className="flex items-center justify-center" key={i}>
-						{new Array(numberOfIcons).fill(0).map((_, i) =>
-							<DollarIcon
-								key={i}
-								className={styles.icon}
-							/>
-						)}
-					</div>
+					<IconsLine
+						key={i}
+						numberOfIcons={numberOfIcons}
+						lineIndex={i}
+						randomLineIndex={randomLineIndex}
+					/>
 				)}
 				<div className={`absolute flex flex-col items-center ${styles.textBlock}`}>
 					<p className={`gravitas-one text-white ${styles.dineroText}`}>DINERO</p>
